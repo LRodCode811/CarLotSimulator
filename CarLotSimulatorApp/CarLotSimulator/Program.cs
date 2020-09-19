@@ -43,11 +43,11 @@ namespace CarLotSimulator
             //Constructor initializer syntax
             var durango = new Car(2019, "Dodge", "Durango", "Strong", "Scary", true);
             Console.WriteLine($"{durango.Year}, {durango.Make}, {durango.Model}, {durango.EngineNoise}, {durango.HonkNoise}, {durango.IsDriveable}");
-                //$"Make: {durango.Make}/n" +
-                //$"Model: {durango.Model}/n" +
-                //$"EngineNoise: {durango.EngineNoise}/n" +
-                //$"HonkNoise: {durango.HonkNoise}/n" +
-                //$"IsDriveable: {durango.IsDriveable}");
+            //$"Make: {durango.Make}/n" +
+            //$"Model: {durango.Model}/n" +
+            //$"EngineNoise: {durango.EngineNoise}/n" +
+            //$"HonkNoise: {durango.HonkNoise}/n" +
+            //$"IsDriveable: {durango.IsDriveable}");
 
 
             //*************BONUS*************//
