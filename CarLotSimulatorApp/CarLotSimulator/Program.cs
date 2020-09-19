@@ -14,9 +14,41 @@ namespace CarLotSimulator
             //The methods should take one string parameter: the respective noise property
 
 
+
             //Now that the Car class is created we can instanciate 3 new cars
             //Set the properties for each of the cars
             //Call each of the methods for each car
+
+            //Standard member initializer syntax
+            var honda = new Car();
+            honda.Year = 2017;
+            honda.Make = "Honda";
+            honda.Model = "Pilot";
+            honda.EngineNoise = "Vroom";
+            honda.HonkNoise = "Beep, Beep";
+            honda.IsDriveable = true;
+
+            //Object initializer syntax
+
+            var elantra = new Car()
+            {
+                Year = 2011,
+                Make = "Hyundai",
+                Model = "Elantra",
+                EngineNoise = "Quiet",
+                HonkNoise = "Loud",
+                IsDriveable = false
+            };
+            
+            //Constructor initializer syntax
+            var durango = new Car(2019, "Dodge", "Durango", "Strong", "Scary", true);
+            Console.WriteLine($"{durango.Year}, {durango.Make}, {durango.Model}, {durango.EngineNoise}, {durango.HonkNoise}, {durango.IsDriveable}");
+                //$"Make: {durango.Make}/n" +
+                //$"Model: {durango.Model}/n" +
+                //$"EngineNoise: {durango.EngineNoise}/n" +
+                //$"HonkNoise: {durango.HonkNoise}/n" +
+                //$"IsDriveable: {durango.IsDriveable}");
+
 
             //*************BONUS*************//
 
